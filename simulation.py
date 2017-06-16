@@ -489,29 +489,3 @@ print test_pairwise(Z_Grid,Z_Grid_nghbs,graphh,locations,colors,N,R,a,b,lamb)
 
 
 
-#evals = LA.eigvalsh(graphh)
-#plt.plot(evals)
-
-
-# Creating a Dummy Graph
-#davg = sum(sum(graphh))/(2*num_nodes);
-#
-#graphh_dummy = np.empty((num_nodes,num_nodes))
-#
-#for x in range(num_nodes):
-#    graphh_dummy[x][x] = 0
-#    for y in range(x+1,num_nodes):
-#        edgeran = random.random();
-#        if edgeran > (2*davg)/num_nodes :
-#            graphh_dummy[x][y] = 0
-#            graphh_dummy[y][x] = 0
-#            continue
-#        else:
-#            graphh_dummy[x][y] = 1
-#            graphh_dummy[y][x] = 1
-#
-#evals_d = LA.eigvalsh(graphh_dummy)
-#plt.plot(evals_d,'g')
-
-#rint np.dot(colors.reshape(num_nodes,),est2.reshape(num_nodes,))
-#print estimates

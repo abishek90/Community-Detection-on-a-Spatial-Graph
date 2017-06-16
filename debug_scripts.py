@@ -5,6 +5,8 @@ Created on Tue Jun  6 09:08:45 2017
 @author: abishek
 """
 
+# This script contains several functions useful in understanding and tuning the parameters of the algorithm contained in simulation.py. The key reason for a seperate debug  script was to see how the pre-defined parameter of graph pruning affects component size. 
+
 # A Script to test the maximum connected component size.
 def return_max_T_Good_component(Z_Grid,Z_Grid_nghbs,graphh_PP,colors):
     maxc = 0
